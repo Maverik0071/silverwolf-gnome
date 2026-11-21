@@ -126,6 +126,7 @@ dnf5 install -y ccid
 #dnf5 install -y terra-release-mesa
 dnf5 install -y kitty
 dnf5 install -y gnome-shell-extension-pop-shell
+dnf5 install -y python3
 
 # enable flathub
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
