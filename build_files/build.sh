@@ -126,7 +126,6 @@ dnf5 install -y ccid
 #dnf5 install -y terra-release-mesa
 dnf5 install -y kitty
 dnf5 install -y gnome-shell-extension-pop-shell
-dnf5 install -y python3
 
 # enable flathub
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -154,9 +153,9 @@ dnf5 -y install hyprpaper
 dnf5 -y install nwg-look
 dnf5 -y copr disable lionheartp/Hyprland
 
-dnf5 -y copr enable erikreider/packages
-dnf5 -y install autotiling
-dnf5 -y copr disable erikreider/packages
+#dnf5 -y copr enable erikreider/packages
+#dnf5 -y install autotiling
+#dnf5 -y copr disable erikreider/packages
 
 dnf5 -y copr enable avengemedia/danklinux
 dnf5 -y install dms
