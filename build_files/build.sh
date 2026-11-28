@@ -175,6 +175,10 @@ dnf5 -y copr disable avengemedia/danklinux
 #dnf5 -y install xdg-portal-desktop-hyprland
 #dnf5 -y copr disable solopasha/hyprland
 
+dnf5 -y copr enable lilay/topgradey
+dnf5 -y install topgrade
+dnf5 -y  copr disable lilay/topgrade
+
 dnf5 -y copr enable bytehackr/Security-Tools
 dnf5 -y install nmap
 dnf5 -y install wireshark
